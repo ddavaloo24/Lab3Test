@@ -17,6 +17,7 @@ public class junit_test extends ActivityInstrumentationTestCase2<MainActivity> {
         super(MainActivity.class);
     }
 
+    //this is the first test
     public void test_first(){
         mainActivity = getActivity();
         TextView textView = (TextView)mainActivity.findViewById(R.id.tv1);
